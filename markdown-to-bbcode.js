@@ -737,7 +737,7 @@
                         this.attrs(t), (null !== e && "list" === e.type && e.listTight) || this.softbreak();
                     }),
                     (A.prototype.heading = function (t, r) {
-                        r ? (this.softbreak(), this.tag("b"), this.tag("size=" + (8 - t.level))) : (this.tag("/size"), this.tag("/b"), this.softbreak(), this.options.newline_after_heading && this.linebreak());
+                        r ? (this.softbreak(), this.tag("b"), this.tag("u"), this.tag("size=" + (6 - t.level))) : (this.tag("/size"), this.tag("/u"),this.tag("/b"), this.softbreak(), this.options.newline_after_heading && this.linebreak());
                     }),
                     (A.prototype.code = function (t) {
                         var r = this.attrs(t);
